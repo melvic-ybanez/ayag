@@ -19,7 +19,7 @@ public class Scheduler {
                 reportResult(startTime, getTimeString());
             }
         };
-        long delay = 1000L * 60 * 2;
+        long delay = 1000L * 60 * 20;
 
         System.out.println("Timer is running...");
         timer.schedule(task, delay);
